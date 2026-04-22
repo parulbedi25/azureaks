@@ -10,9 +10,10 @@
 5. Deploy sample App on AKS
 
 6. Merging two config files:
+
     export KUBECONFIG=~/.kube/config:~/.kube/aksconfig
     kubectl config view --merge --flatten > ~/.kube/config-merged
     mv ~/.kube/config-merged ~/.kube/config
 
-7. kubectl apply -f .
-8. kubectl delete -f .
+8. kubectl apply -f .
+9. kubectl delete -f .
