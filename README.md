@@ -2,6 +2,7 @@
 1. Create AKS Cluster
 
 2. Connect to AKS Cluster using Cloud Shell
+
    az aks get-credentials --resource-group aksdemo --name aksdemo1
 
 4. Connect to AKS Cluster using Azure CLI
